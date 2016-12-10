@@ -1,6 +1,6 @@
 {
   "name": "oq-time-zone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pretty time zone: `+2` or `-9:30`.优化时区",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/OpenQuest/oq-time-zone.git"
   },
-  "keywords": ["time-zone","OpenQuest"],
+  "keywords": [
+    "time-zone",
+    "OpenQuest"
+  ],
   "author": "lingshanjun",
   "license": "MIT",
   "bugs": {
