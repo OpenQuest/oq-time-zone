@@ -1,0 +1,27 @@
+{
+  "name": "oq-time-zone",
+  "version": "1.0.0",
+  "description": "Pretty time zone: `+2` or `-9:30`.优化时区",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenQuest/oq-time-zone.git"
+  },
+  "keywords": ["time-zone","OpenQuest"],
+  "author": "lingshanjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenQuest/oq-time-zone/issues"
+  },
+  "homepage": "https://github.com/OpenQuest/oq-time-zone#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-comments": "^2.4.3",
+    "mocha": "^3.2.0"
+  }
+}
