@@ -11,14 +11,14 @@ $ npm install --save oq-time-zone
 var timeZone = require('oq-time-zone');
 
 // current time zone (in Norway)
-// 当前挪威时区
+// 挪威非夏令时时区（当前时间为12月，为非夏令时，不受影响）
 timeZone();
-//=> '+2'
-
-// time zone in February (in Norway)
-// 挪威一月份时区，受夏令时影响，时区会发生变化
-timeZone(new Date(2016, 1, 1));
 //=> '+1'
+
+// time zone in May (in Norway)
+// 挪威五月份时区，受夏令时影响，时区会发生变化
+timeZone(new Date(2016, 5, 1));
+//=> '+2'
 
 // current time zone (in French Polynesia)
 // 法属波利尼西亚的时区，不是整时，还有很多地区的时区也不是整时

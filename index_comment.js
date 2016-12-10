@@ -3,7 +3,7 @@
 /**
  * Pretty time zone.优化时区
  * @param  {Date} date 可选，Date对象
- * @return {String}      时区的时分表示，如+8(东八区)，-2(西二区) +4:30(缅甸)
+ * @return {String}      时区的时分表示，如+8(东八区)，-2(西二区) +6:30(缅甸)
  */
 var timeZone = module.exports = function(date) {
     // 获得本机时间相对于UTC时间的时区偏移
